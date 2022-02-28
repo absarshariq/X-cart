@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Roman&family=Nunito+Sans:wght@200&family=Pacifico&display=swap');
+
+.home{
+
+    display:flex;  
+
+
+
+    /* background-color: antiquewhite;  */
+
+}
+
+
+
+.productContainer{
+
+    display: flex;
+
+    width: 70%;
+
+    padding: 20px;
+
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+   
+
+}
+.filters{
+
+    display: flex;
+
+    flex-direction: column;
+
+    /* justify-content: space-evenly; */
+
+    width: 20%;
+
+    padding: 20px;
+
+    margin: 10px 0px;
+
+    /* background-color: #1f7edd; */
+
+    background-color: #EAE7DC;
+
+    /* color: #E98074; */
+
+    height: 80vh;
+
+    font-weight: bold;
+
+}
+
+.filters > span{
+
+    padding-bottom: 20px;
+
+   
+
+}
+
+.title{
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 20px;
+
+   
+
+}
+.singleProduct{
+
+    width:30%;
+
+    margin:10px;
+
+}
+
+.card{
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.CartConatiner{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 300px;
+
+    align-items: center;
+
+    padding: 12px;
+
+    /* border-bottom: 2px solid black; */
+
+}
+.details{
+
+    display: flex;
+
+    flex-direction: column;
+
+    /* align-items: center; */
+
+
+
+    width: 80%;
+
+    /* background-color: black; */
+
+    margin: 4px;
+
+   
+
+}
+
+.logo img{
+
+    width:50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+}
+
+.button{
+
+    margin-top: 6px;
+
+    width: 100%;
+
+}
+.summary img{
+
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 50%;
+
+}
+
+.summary .list{
+
+    width: 120%;
+
+    /* background-color: lawngreen; */
+
+}
+
+.row{
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    /* width: 100%; */
+
+    /* background-color: khaki; */
+
+}
+.search{
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    background-color: #EAE7DC;
+
+}
+
+.searchh{
+
+    display: none !important;
+
+}
+@media (max-width: 771px) {
+
+    .filters {
+
+      width: 40%;
+
+      padding: 10px;
+
+      margin: 5px;
+
+    }
+
+ 
+
+    .filters > span {
+
+      font-size: 10px;
+
+    }
+
+ 
+
+    .title,.titlee{
+
+        margin-left: 10px;
+
+      font-size: 12px !important;
+
+    }
+
+ 
+
+    .productContainer {
+
+       
+
+      width: 58%;
+
+      padding: 0;
+
+    }
+    .singleProduct{
+
+        width: 200px;
+
+    }
+
+    .search{
+
+        width: 20px;
+
+    }
+
+    .search {
+
+      display: none !important;
+
+    }
+
+    .searchh{
+
+        display: inherit !important;
+
+        margin-left: -20px;
+
+        /* width: 20px; */
+
+       
+
+    }
+
+   .summary{
+
+       width: 35%;
+
+   }
+
+  }
